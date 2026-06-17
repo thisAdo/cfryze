@@ -9,7 +9,8 @@
     "./pool": "./lib/scraper-pool.js"
   },
   "scripts": {
-    "test": "node example.js"
+    "test": "node example.js",
+    "postinstall": "node setup.js"
   },
   "keywords": [
     "turnstile",
