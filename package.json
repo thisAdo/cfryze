@@ -1,0 +1,36 @@
+{
+  "name": "cfryze",
+  "version": "1.0.0",
+  "description": "Turnstile solver (token)",
+  "main": "index.js",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./pool": "./lib/scraper-pool.js"
+  },
+  "scripts": {
+    "test": "node example.js"
+  },
+  "keywords": [
+    "turnstile",
+    "cloudflare",
+    "captcha",
+    "solver",
+    "bypass",
+    "puppeteer",
+    "browser",
+    "proxy",
+    "brightdata",
+    "token"
+  ],
+  "author": "RyZe",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer-real-browser": "^1.4.4",
+    "user-agents": "^1.1.373",
+    "uuid": "^11.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
